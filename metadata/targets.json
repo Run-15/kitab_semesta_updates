@@ -2,12 +2,12 @@
  "signatures": [
   {
    "keyid": "70452266ab541dc7a797f1ee1ae125976971e42721752bc5fb0e0c408982cbce",
-   "sig": "98d04d570e3dff4351ad2242afe7cd6b75031ec3dee4681a54cbae69f6e7ab778e968f9234ccb6655512bc8c4462dc833ecf51d136d1f0b0eedf9e70ba8cc304"
+   "sig": "65532ac92d4cbfdd91a62ab37c595be00ec725570af138604816b24f0c0424c29f2c659062848f38b3a1646f8b0c09ee3502a39ee683f4d2dac3f821041a440c"
   }
  ],
  "signed": {
   "_type": "targets",
-  "expires": "2026-06-02T12:16:59Z",
+  "expires": "2026-06-02T13:03:50Z",
   "spec_version": "1.0.31",
   "targets": {
    "Kitab_Semesta-1.0.3.tar.gz": {
@@ -21,8 +21,20 @@
      "sha256": "785239d735d54fe2975cc8558326b592bac0bcda9b2adff0b0a6397694e601d9"
     },
     "length": 61614060
+   },
+   "Kitab_Semesta-1.0.4-alpha.tar.gz": {
+    "custom": {
+     "tufup": {
+      "required": false
+     },
+     "user": null
+    },
+    "hashes": {
+     "sha256": "373ed688bea7a20d9fc59c7284d9841119d4fb46f8bf74e424a125442f7ce6b4"
+    },
+    "length": 61614063
    }
   },
-  "version": 2
+  "version": 3
  }
 }
