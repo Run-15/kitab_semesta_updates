@@ -2,12 +2,12 @@
  "signatures": [
   {
    "keyid": "70452266ab541dc7a797f1ee1ae125976971e42721752bc5fb0e0c408982cbce",
-   "sig": "4cf4be25c68d90ac8629149e38f24121e48f8ebe76a8f62bccdc6a5d731f5aa4887786258876dc865d0adb1566bea6d1c04098e69be5553afc1f970ba7a39d0d"
+   "sig": "317655336b158284532e89687d354c46171e76a3d3a143dd102e832f39321f6421d6958ec1e841a98a572082451db60d413f63717c1a46de1dd2a92a86119c09"
   }
  ],
  "signed": {
   "_type": "targets",
-  "expires": "2026-06-03T02:01:38Z",
+  "expires": "2026-06-03T03:35:57Z",
   "spec_version": "1.0.31",
   "targets": {
    "Kitab_Semesta-1.0.3.tar.gz": {
@@ -71,8 +71,22 @@
      "sha256": "afaa315238dde8fe3a3b96b51c96cec7fad74a87f539117a06f96acc7ca4b380"
     },
     "length": 61600783
+   },
+   "Kitab_Semesta-1.1.1-alpha.tar.gz": {
+    "custom": {
+     "tufup": {
+      "required": false
+     },
+     "user": {
+      "changelog": "Perbaikan:\n- Tunda installasi (Bawaan Tufup)\n- Dialog dimunculkan dengan aman\n- Sehingga eksekusi install update aman"
+     }
+    },
+    "hashes": {
+     "sha256": "16ca8f52920ded0bdc17a10903ae58e30b3ebd8e23a39dcf842dc2b1526a7372"
+    },
+    "length": 61598870
    }
   },
-  "version": 6
+  "version": 7
  }
 }
