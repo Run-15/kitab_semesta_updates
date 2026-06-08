@@ -2,12 +2,12 @@
  "signatures": [
   {
    "keyid": "70452266ab541dc7a797f1ee1ae125976971e42721752bc5fb0e0c408982cbce",
-   "sig": "d4913284ee9b2c52ea0ce6fa0a4c3ec35a8f42ac5a63230acebaf475cca76e758bcffb39b3ebbabfe59968671a473c431fe2ba0cee1fd0e6bbd87f8dfb915408"
+   "sig": "6c44032859e86384e184650cd83745ed4f6c3a99b294a715e68991fb22bf38f6b28605c9bfdd602ae1ea30fd06ca64ee5a889ed5927c2ec921080c180ea2670b"
   }
  ],
  "signed": {
   "_type": "targets",
-  "expires": "2026-06-03T04:28:40Z",
+  "expires": "2026-06-15T08:39:41Z",
   "spec_version": "1.0.31",
   "targets": {
    "Kitab_Semesta-1.0.3.tar.gz": {
@@ -113,8 +113,36 @@
      "sha256": "dba2a64dbff8f859a2ac2dd7ccc8950d9020e42786f17d8e630da5cb55eba58d"
     },
     "length": 61598570
+   },
+   "Kitab_Semesta-1.5.3-alpha.patch": {
+    "custom": {
+     "tufup": {
+      "tar_hash": "70753523ca5c806d92651ccda0b2bcb735e79eed41fa65d43263845eceaef2bc",
+      "tar_hash_algorithm": "sha256",
+      "tar_size": 159467520
+     },
+     "user": null
+    },
+    "hashes": {
+     "sha256": "d4744401b2774d61d7a54e19711cd0d3d05855d282fedd56a678875c45bd8985"
+    },
+    "length": 3746034
+   },
+   "Kitab_Semesta-1.5.3-alpha.tar.gz": {
+    "custom": {
+     "tufup": {
+      "required": false
+     },
+     "user": {
+      "changelog": "Buat laman pilih Kitab, Pasal dan laman tampilan ayatnya. Serta memperbaiki fitur-fitur tersebut."
+     }
+    },
+    "hashes": {
+     "sha256": "6a9ca82b3b18bd76a010279424e88432190bda2750d5583bef160d5254061523"
+    },
+    "length": 64584899
    }
   },
-  "version": 8
+  "version": 9
  }
 }
