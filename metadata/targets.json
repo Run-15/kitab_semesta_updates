@@ -2,12 +2,12 @@
  "signatures": [
   {
    "keyid": "70452266ab541dc7a797f1ee1ae125976971e42721752bc5fb0e0c408982cbce",
-   "sig": "6c44032859e86384e184650cd83745ed4f6c3a99b294a715e68991fb22bf38f6b28605c9bfdd602ae1ea30fd06ca64ee5a889ed5927c2ec921080c180ea2670b"
+   "sig": "3c1d631e85549fe57a04522a29774e6f598eac0368324e00e15b144fd38e4596dea25fcfed6ba6219052a5d7f87383149537663af13a5f346d1e833655097004"
   }
  ],
  "signed": {
   "_type": "targets",
-  "expires": "2026-06-15T08:39:41Z",
+  "expires": "2026-06-25T13:25:41Z",
   "spec_version": "1.0.31",
   "targets": {
    "Kitab_Semesta-1.0.3.tar.gz": {
@@ -141,8 +141,36 @@
      "sha256": "6a9ca82b3b18bd76a010279424e88432190bda2750d5583bef160d5254061523"
     },
     "length": 64584899
+   },
+   "Kitab_Semesta-1.8.5-alpha.patch": {
+    "custom": {
+     "tufup": {
+      "tar_hash": "d9931cc941adeefd1ecaeb0e8fbbcc4ef3ff35097ca4f036d8193a6eb8a43621",
+      "tar_hash_algorithm": "sha256",
+      "tar_size": 161126400
+     },
+     "user": null
+    },
+    "hashes": {
+     "sha256": "5c36d468acf93faf8f15ff2285717d524a08c00460d5bcedd00547837429b207"
+    },
+    "length": 828886
+   },
+   "Kitab_Semesta-1.8.5-alpha.tar.gz": {
+    "custom": {
+     "tufup": {
+      "required": false
+     },
+     "user": {
+      "changelog": "* Perbaikan navigasi tombol Al-Kitab pada halaman utama.\n* Perbaikan bug hilangnya judul surah ketika menekan tombol kembali.\n* Penyesuaian validasi kolom pencarian lompat surah/ayat agar memperbolehkan spasi."
+     }
+    },
+    "hashes": {
+     "sha256": "58978a4a2eca16b4205fdc378b71f87b0faa052213639f743bd6dadb8170379b"
+    },
+    "length": 65387173
    }
   },
-  "version": 9
+  "version": 10
  }
 }
